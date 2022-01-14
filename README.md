@@ -8,6 +8,7 @@ This is 'raw' code for toxic protein identification and classification by machin
 See http://bioserv7.bioinfo.pbf.hr/ToxClassifier/ and appropriate article (listed on web page) for details
 
 
+
 ### To use offline classifier, do following steps:
 
 0) keep following in mind: 
