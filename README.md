@@ -4,7 +4,7 @@
 
 ## Fork Background
 
-This fork is an update of this model and its content to the latest technology. Python 2.7 is no longer supported and Linux 12 is no longer supporter. Part of this fork is experimenting and seeing if a new model can be trained on new technology (still pending author permission).
+This fork is an update of this model and its content to the latest technology. Python 2.7 is no longer supported and Linux 12 is no longer supporter. Part of this fork is experimenting and seeing if a new model can be trained on new technology (still pending author permission, being handled by this [issue](https://github.com/rgacesa/ToxClassifier/issues/1)).
 
 
 ### ToxClassifier Code
