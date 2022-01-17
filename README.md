@@ -2,6 +2,11 @@
  - Ranko Gacesa, King's College London under supervision of Dr. Paul Long, King's College London
  - last update: 20/10/2016
 
+## Fork Background
+
+This fork is an update of this model and its content to the latest technology. Python 2.7 is no longer supported and Linux 12 is no longer supporter. Part of this fork is experimenting and seeing if a new model can be trained on new technology (still pending author permission).
+
+
 ### ToxClassifier Code
 
 This is 'raw' code for toxic protein identification and classification by machine learning methods. 
