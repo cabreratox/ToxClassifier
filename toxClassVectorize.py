@@ -51,7 +51,7 @@ pars.add_argument('--triblast',default='1',help='if 1, will do triBlastEnhanced 
 pars.add_argument('--bifreq',default='1',help='if 1, will do biFreq vectorization, save it as _bif_vec.csv')
 pars.add_argument('--scoredtox',default='1',help='if 1, will do scored ToxBits vectorization, save it as _stb_vec.csv')
 pars.add_argument('--hmmer',default='../tools/',help='path to hmmer binaries folder')
-pars.add_argument('--toxbits',default='../dbs/blocks_hmms',help='path to ToxBits')
+pars.add_argument('--toxbits',default='dbs/blocks_hmms',help='path to ToxBits')
 pars.add_argument('--classifynotb',default='1',help='scoredToxBit vectorization: if not 1, will drop sequences in which no toxbits appear [def = 1]')
 pars.add_argument('--blast',default='../tools/blastp',help='path to blastp')
 pars.add_argument('--tbdbs',default='../dbs', help='path to triBlastEnhanced DBs')
@@ -65,6 +65,7 @@ if str(args.verbose) == '1':
     ver = True
 
 allfa = loadAllFastas(args.input)
+allfa = allfa[:5]
 # vectorization 1: biFreq vectorizer
 if args.bifreq == '1':
     vec = biFreqVectorize(allfa, verbose=ver)
