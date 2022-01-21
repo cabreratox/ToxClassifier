@@ -30,10 +30,10 @@ import os
 # ----------------------------------
 def scoredToxBitsVectorize(inp,toxBits,hmmer, classifyNoTB=1,verbose=False, tmpfolder = '',repor=-1,trimHdr=0):
 
-    if tmpfolder == '':
-        tmpfolder = './'
-    elif not tmpfolder[-1] == '\/':
-        tmpfolder = tmpfolder+'/'
+    # if tmpfolder == '':
+    #     tmpfolder = './'
+    # elif not tmpfolder[-1] == '\/':
+    #     tmpfolder = tmpfolder+'/'
 # ---- STEP 0: PREPROCESS TOXBITS ----
     if verbose:
         print ' scored Toxbits vectorizing started ... '
